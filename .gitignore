@@ -1,0 +1,38 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+env/
+
+# Testes e cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Configurações e segredos locais
+.env
+.env.*
+!.env.example
+
+# Backups e arquivos temporários locais
+backups/
+.iafordev_backups/
+*.bak
+*.bak-*
+*.backup
+*.backup_*
+*.pre_config_backup
+*.log
+
+# Builds e dependências geradas
+build/
+dist/
+node_modules/
+
+# Editores e sistema operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
